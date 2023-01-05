@@ -1,0 +1,100 @@
+body {
+  background-image: url("./images/mountain.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #f5f5f5;
+  font-family: cursive;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  height: 25vh;
+  width: 20vw;
+  padding: 40px;
+}
+
+.main-top {
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+}
+
+.main-center {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-center-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-center-right {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: right;
+  /* justify-content: space-between; */
+}
+
+.weather-icon.large {
+  color: #f5f5f5;
+  height: 40px;
+  width: 40px;
+}
+
+.main-bottom {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.search-bar {
+  display: flex;
+}
+
+.search-input {
+  background-color: rgba(0, 0, 0, 0);
+  border: 0;
+  width: 160px;
+  border-bottom: 2px solid #f5f5f5;
+  color: #f5f5f5;
+}
+
+.search-input:focus {
+  border: 0;
+  border-bottom: 2px solid #f5f5f5;
+  outline: 0;
+}
+
+::placeholder {
+  color: #f5f5f5;
+}
+
+.search-outline-svg {
+  width: 20px;
+  height: 20px;
+}
+
+.search-button {
+  border: none;
+  border-bottom: 2px solid #f5f5f5;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.search-button:hover {
+  cursor: pointer;
+}
+
+.wind-icon,
+.rain-drops {
+  width: 20px;
+  height: auto;
+}
